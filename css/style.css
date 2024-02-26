@@ -55,6 +55,7 @@ body {
     font-size: 25px;
     font-weight: 400;
     line-height: 34px;
+    background: #005FA3;
 }
 
 .service {
@@ -76,6 +77,10 @@ body {
     line-height: 69px;
 }
 
+.section-sub-title-blue {
+    color: #005FA3;
+}
+
 .service-item-link {
     background-image: url(../img/services-bkg.jpg);
     text-decoration: none;
@@ -84,12 +89,22 @@ body {
 .service-item-title {
     color: #FFF;
     font-size: 24px;
+    line-height: 30px;
     font-weight: 900;
 }
 
-.review-button {
+.button {
     color: #FFF;
     font-weight: 400;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #005FA3;
+    border: none;
+}
+
+.review-item {
+    background-color: #EBEBEB;
 }
 
 .review-item-text {
@@ -102,7 +117,70 @@ body {
 }
 
 .review-item-position {
-    color: #EBEBEB;
+    color: #4F4F4F;
     font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.about-item {
+    background: #EBEBEB;
+}
+
+.about-item-num {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px;
+}
+
+.about-item-header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.about-item-link {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #005FA3;
+}
+
+.advantage {
+    background: #EBEBEB;
+}
+
+.advantage-desc {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.footer {
+    background-color: #161616;
+    color: #FFF;
+    background-image: url(../img/form-bkg.jpg);
+}
+
+.footer-bkg{
+    background-color: #161616;
+    color: #FFF;
+    background-image: url(../img/form-bkg.jpg);
+}
+
+.white {
+    color: #FFF;
+}
+
+.footer-contact-text {
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
 }
 
